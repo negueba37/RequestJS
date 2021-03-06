@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(147, 153, 243);
+}
+.title{
+    text-align: center;
+}
+.title-primary{
+  color: #fff;
+}
+input{
+    width: 80%;
+    margin-top: 20px;
+}
+.container-cad{
+    background-color: #fff;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgb(70, 70, 70); 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+table{
+    width: 80%;
+    height: 80%;
+    font-family: sans-serif;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+th{
+    background-color: rgba(86, 70, 228, 0.644);
+    color: white;
+    text-align: center;
+}
+tr{
+    background-color: burlywood;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:500px){
+  .container-cad{
+      width: 80vw;
+
+  }
+}
