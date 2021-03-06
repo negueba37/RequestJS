@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,52 @@
     <link rel="stylesheet" href="style.css">
     <title>Cadastro Simples</title>
 </head>
+
 <body onload="onLoadHome()">
-    <header>
-        <h1 class="title title-primary">Cadastro</h1>
-    </header>
+
+    <nav>
+        <div id="navMenu">
+            <a href="">
+                <img src="js.png" id="imgLogo" alt="">
+            </a>
+            <img src="botao-de-menu-de-tres-linhas-horizontais.png" id="imgMenu" alt="">
+        </div>
+    </nav>
+
     <section>
+        <h1 class="title title-primary">Cadastro</h1>
         <div class="container-cad">
             <input type="text" id="fnome" placeholder="Digite seu nome">
             <input type="number" id="fnumero" placeholder="Digite seu numero">
-            <input type="button" value="Cadastrar" onclick="cadastrar()">
+            <input type="button" class="btn" value="Cadastrar" onclick="cadastrar()">
             <h1 style="margin-top: 20px;">
                 <a href="./listaAmigos.html" class="title">Lista de Amigos</a>
             </h1>
-            
         </div>
-      
+    </section>
+    <section>
+        <h1 class="title title-primary">Fotos</h1>
+        <div>
+            <p class="group-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quidem molestiae ipsa voluptate maiores quas cum. Illum recusandae, eius nemo perspiciatis, saepe aliquam obcaecati rem distinctio in ullam eos tempora.</p>
+            <img src="amigos01.jpg" alt="" class="group-img-amigos">
+            <p class="group-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reprehenderit officia laborum numquam. Autem quia aspernatur ea voluptates quasi quaerat excepturi commodi, consequuntur vel aliquid maiores in libero nam laboriosam.</p>
+            <img src="amigos02.jpg" alt="" class="group-img-amigos">
+            <p class="group-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ex voluptatibus dicta, inventore maiores iusto nemo enim nam qui voluptas fugiat quo earum perferendis vitae distinctio neque itaque at voluptatem.s
+            </p>
+            <img src="amigos01.jpg" alt="" class="group-img-amigos">
+            <p class="group-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ex voluptatibus dicta, inventore maiores iusto nemo enim nam qui voluptas fugiat quo earum perferendis vitae distinctio neque itaque at voluptatem.s
+            </p>
+
+            <img src="amigos04.jpg" alt="" class="group-img-amigos">
+            <p class="group-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ex voluptatibus dicta, inventore maiores iusto nemo enim nam qui voluptas fugiat quo earum perferendis vitae distinctio neque itaque at voluptatem.s
+            </p>
+
+            <img src="amigos01.jpg" alt="" class="group-img-amigos">
+
+        </div>
     </section>
     <footer></footer>
     <script src="./script.js"></script>
 </body>
+
 </html>

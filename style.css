@@ -1,34 +1,55 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: rgb(147, 153, 243);
 }
-.title{
+
+.title {
     text-align: center;
+    margin: 10px 0 10px 0;
 }
-.title-primary{
-  color: #fff;
+
+.title-primary {
+    color: #fff;
 }
-input{
+
+input {
     width: 80%;
     margin-top: 20px;
+    font-size: 16px;
 }
-.container-cad{
+
+.btn {
+    color: rgb(117, 126, 243);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(147, 153, 243);
+    color: #fff;
+}
+
+.container-cad {
     background-color: #fff;
     width: 50vw;
     height: 50vh;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 3px 5px 5px rgb(70, 70, 70); 
+    box-shadow: 3px 5px 5px rgb(70, 70, 70);
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
-table{
+
+table {
     width: 80%;
     height: 80%;
     font-family: sans-serif;
@@ -36,20 +57,59 @@ table{
     display: flex;
     justify-content: center;
 }
-th{
+
+th {
     background-color: rgba(86, 70, 228, 0.644);
     color: white;
     text-align: center;
 }
-tr{
+
+tr {
     background-color: burlywood;
 }
-a{
+
+a {
     text-decoration: none;
 }
-@media(max-width:500px){
-  .container-cad{
-      width: 80vw;
 
-  }
+#imgLogo {
+    width: 60%;
+    height: 80%;
+    margin-left: 15px;
+}
+
+#imgMenu {
+    margin-right: 30px;
+}
+
+.group-img-amigos {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.group-description {
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#navMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+@media(max-width:500px) {
+    .container-cad {
+        width: 80vw;
+    }
+    .btn {
+        background-color: rgb(147, 153, 243);
+    }
 }
